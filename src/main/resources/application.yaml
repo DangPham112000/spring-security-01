@@ -1,2 +1,15 @@
 server:
   port: 8081
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+spring:
+  security:
+    user:
+      roles:
+        - admin
+        - user
+      name: root
+      password: root1234
